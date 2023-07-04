@@ -47,7 +47,9 @@ class MainController {
     @FXML
     fun LoadBut(event: MouseEvent?) {
     }
-
+    @FXML
+    fun ClearClicked(event: MouseEvent?) {
+    }
     @FXML
     fun GenerateBut(event: MouseEvent) {
         val draw = Drawablegraph(FrontPane)
